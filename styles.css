@@ -247,8 +247,40 @@ template {
     box-sizing: border-box;
 }
 
+.h {
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #FFF;
+}
+
+.red-btn {
+    background-color: #EE3643;
+    border-radius: 5px;
+    padding: 14px 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+}
+
 body {
     font-family: 'Cuprum', sans-serif;
+}
+
+.tech-header {
+    margin-bottom: 60px;
 }
 
 .container {
@@ -256,23 +288,46 @@ body {
     margin: auto;
 }
 
-.tech-header {
-    height: 42px;
+.top-menu {
     background-color: #293449;
 }
 
-.top-menu {
+.top-menu .container {
     display: flex;
     justify-content: space-between;
 }
 
-.top-menu a {
-    height: 42px;
+.top-menu .btn {
     font-size: 17px;
     line-height: 18px;
     padding: 12px 0 12px 0;
     color: #FFF;
     text-decoration: none;
+}
+
+.top-menu form {
+    margin-left: -10px;
+}
+
+.top-menu .search {
+    margin-top: 7px;
+    border: none;
+    background-color: #293449;
+    padding-left: 30px;
+    padding: 5px 0 5px 30px;
+    color: #FFF;
+}
+
+.search::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+.search::-moz-placeholder {
+    color: #FFF;
+}
+
+.search:-moz-placeholder {
+    color: #FFF;
 }
 
 .place-an-order {
@@ -281,7 +336,8 @@ body {
     width: 150px;
 }
 
-.tech-logo {
+.logo {
+    position: relative;
     font-size: 24px;
     line-height: 24px;
     text-align: center;
@@ -289,21 +345,33 @@ body {
     width: 220px;
     background-color: #EE3643;
     text-transform: uppercase;
-    border-bottom: 5px solid #B52933;
     color: #FFF;
 }
 
-.info-and-navigation {
-    background-color: #F3F7F8;
+.bot-line::after {
+    content: "";
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+    background-color: #B52933;
+    width: 100%;
+    height: 5px;
 }
 
-.info-and-navigation p,
-.info-and-navigation h3 {
+.about-us {
+    top: -5px;
+    background-color: #F3F7F8;
+    padding-bottom: 60px;
+}
+
+.about-us p,
+.about-us {
     margin: 0;
 }
 
 .info {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     padding-top: 46px;
     padding-left: 50px;
@@ -312,7 +380,304 @@ body {
 
 .info .description {
     margin: 0;
-    width: 200px;
+    width: 190px;
     font-style: italic;
     color: #EE3643;
+}
+
+.info .phone {
+    margin: 0;
+    display: block;
+    font-size: 21px;
+    line-height: 18px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #FFF;
+    color: #EE3643;
+}
+
+.info p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #32425C;
+}
+
+.info .btn {
+    color: #000;
+    background-color: #FFF;
+    display: block;
+    font-size: 21px;
+    line-height: 18px;
+    padding: 13px 25px 14px 25px;
+}
+
+.info .sign-in {
+    padding-left: 40px;
+}
+
+.site-navigation {
+    background-color: #32425C;
+    border-bottom: 5px solid #293449;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-navigation .btn {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.first-block {
+    margin-bottom: 40px;
+}
+
+.card1 {
+    float: left;
+    background-color: #FFBF47;
+    margin-right: 20px;
+}
+
+.card2 {
+    float: left;
+    background-color: #3BBCE3;
+}
+
+.card3 {
+    float: right;
+    background-color: #DC91D8;
+}
+
+.card4 {
+    float: right;
+    background-color: #8ED78F;
+}
+
+.card5 {
+    float: right;
+    background-color: #FFBF47;
+}
+
+.slider {
+    padding: 25px;
+    float: left;
+    width: 620px;
+    height: 270px;
+    background-color: #52473A;
+}
+
+.slider-changable .h {
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.slider-changable span {
+    color: #FFF;
+    display: inline-block;
+    margin-bottom: 120px;
+}
+
+.slider-second {
+    display: none;
+}
+
+.first-block .card {
+    color: #FFF;
+    padding: 13px 0 23px 23px;
+    width: 300px;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.card .h {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    border-radius: 5px;
+    padding: 14px 24px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.popular-heading {
+    background-color: #F9F5F0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.popular-heading .h {
+    margin-top: 8px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #32425C;
+    text-transform: uppercase;
+}
+
+.popular-catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.item {
+    width: 220px;
+    text-align: center;
+    border: 1px solid #EAEAEA;
+}
+
+.popular-catalog .item {
+    height: 320px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.popular-catalog .item-name {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.popular-catalog .item-old-price {
+    margin-bottom: 15px;
+    color: #AAA;
+}
+
+.popular-catalog .item-new-price {
+    color: #FFF;
+    padding: 7px;
+    background: #EE3643;
+    background: url("images/for-price.png") no-repeat 38px -2px;
+}
+
+.image-wrap {
+    display: flex;
+    height: 180px;
+}
+
+.image-wrap img {
+    margin: auto;
+}
+
+.manufacturers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.manufacturers-list .item {
+    height: 145px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.manufacturers-list img {
+    margin: auto;
+}
+
+.services {
+    background-color: #F4F8FA
+}
+
+.services .h {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.services-buttons-block {}
+
+.services-buttons-block label {
+    display: block;
+    width: 240px;
+    padding: 20px;
+    background-color: #32425C;
+}
+
+.services-buttons-block input {
+    display: none;
+}
+
+.services-changable-text-block .h {
+    font-size: 32px;
+    color: #32425C;
+}
+
+.tech-footer {
+    background-color: #32425C;
+    color: #FFF;
+}
+
+.tech-footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.tech-footer .logo {
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 16px
+}
+
+.bot-first-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot-second-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot-first-nav {
+    padding-top: 30px;
+}
+
+.bot-second-nav {
+    padding-top: 20px;
+}
+
+.bot-first-nav a {
+    margin-left: 55px;
+}
+
+.bot-second-nav a {
+    color: #FFD180;
+    margin-left: 55px;
+}
+
+.bot-links {
+    background-color: #293449;
+}
+
+.bot-links-flex {
+    background-color: #293449;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soc-links a {
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #212A3A
 }
