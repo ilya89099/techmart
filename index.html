@@ -15,11 +15,11 @@
         <div class="top-menu">
             <div class="container">
                 <div class="logo bot-line">Техномарт</div>
-                <form action="">
+                <form class="search-form  top-icon" action="">
                     <input class="search" type="text" placeholder="Поиск:" name="search">
                 </form>
-                <a class="btn  bookmarks-link" href="#">Закладки: 0</a>
-                <a class="btn  basket-link" href="#">Корзина: 0</a>
+                <a class="btn  top-icon  bookmarks-link" href="#">Закладки: 0</a>
+                <a class="btn  top-icon  basket-link" href="#">Корзина: 0</a>
                 <a class="btn  place-an-order" href="#">Оформить заказ</a>
             </div>
         </div>
@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="info">
                     <p class="description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-                    <div class="">
+                    <div class="call-us">
                         <h1 class="phone  h">+7 (812) 555-05-55</h1>
                         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                     </div>
@@ -48,15 +48,15 @@
     </header>
     <main>
         <div class="first-block clearfix  container">
-            <div class="card card1">
+            <div class="card card1 card-icon">
                 <h2 class="h">Материалы</h2>
                 <a class="btn" href="#">На любой вкус</a>
             </div>
-            <div class="card card2">
+            <div class="card card2 card-icon">
                 <h2 class="h">Инструмент</h2>
                 <a class="btn" href="#">На все случаи</a>
             </div>
-            <div class="card card3">
+            <div class="card card3 card-icon">
                 <h2 class="h">Техника</h2>
                 <a class="btn" href="#">Для стройки</a>
             </div>
@@ -69,13 +69,13 @@
                     <h2>Дрели</h2>
                     <span>Соседям на радость!</span>
                 </div>
-                <a class="btn  red-btn" href="">Открыть каталог</a>
+                <a class="btn  red-btn" href="catalog.html">Открыть каталог</a>
             </div>
-            <div class="card card4">
+            <div class="card card4 card-icon">
                 <h2 class="h">Скидки 50%</h2>
                 <a class="btn" href="#">На 350 товаров</a>
             </div>
-            <div class="card card5">
+            <div class="card card5 card-icon">
                 <h2 class="h">Доставка</h2>
                 <a class="btn" href="#">Бесплатно</a>
             </div>
@@ -111,37 +111,36 @@
                     <h3 class="item-new-price  h">12500 Р.</h3>
                 </div>
             </div>
-
-            <div class="popular  manufacturers  container">
-                <div class="popular-heading">
-                    <h2 class="h">Популярные производители:</h2>
-                    <a class="btn  red-btn" href="#">Все производители</a>
+        </div>
+        <div class="popular  manufacturers  container">
+            <div class="popular-heading">
+                <h2 class="h">Популярные производители:</h2>
+                <a class="btn  red-btn" href="#">Все производители</a>
+            </div>
+            <div class="manufacturers-list">
+                <div class="item">
+                    <img src="images/bosch.jpg" alt="">
                 </div>
-                <div class="manufacturers-list">
-                    <div class="item">
-                        <img src="images/bosch.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/makita.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/dewalt.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/interskol.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/hitachi.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/lg.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/aeg.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/metabo.jpg" alt="">
-                    </div>
+                <div class="item">
+                    <img src="images/makita.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/dewalt.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/interskol.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/hitachi.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/lg.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/aeg.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/metabo.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -149,37 +148,39 @@
             <div class="container">
                 <h2 class="h">Сервисы</h2>
                 <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-                <form class="services-buttons-block">
-                    <input class="services-input" type="radio" checked id="radio-1" name="radiogroup">
-                    <label for="radio-1">Доставка</label>
-                    <input class="services-input" type="radio" id="radio-2" name="radiogroup">
-                    <label for="radio-2">Гарантия</label>
-                    <input class="services-input" type="radio" id="radio-3" name="radiogroup">
-                    <label for="radio-3">Кредит</label>
-                </form>
-                <div class="services-changable-text-block">
-                    <h2 class="h">Доставка</h2>
-                    <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                <div class="second-slider">
+                    <form class="services-buttons-block">
+                        <input class="services-input" type="radio" checked id="radio-1" name="radiogroup">
+                        <label for="radio-1">Доставка</label>
+                        <input class="services-input" type="radio" id="radio-2" name="radiogroup">
+                        <label for="radio-2">Гарантия</label>
+                        <input class="services-input" type="radio" id="radio-3" name="radiogroup">
+                        <label for="radio-3">Кредит</label>
+                    </form>
+                    <div class="services-changable-text-block">
+                        <h2 class="h">Доставка</h2>
+                        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="company-and-contacts  container">
+        <div class="company--contacts  container">
             <div class="company">
                 <h2 class="h">Компания «Техномарт»</h2>
-                <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах</p>
-                <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями</p>
-                <ul>
-                    <li>Деловые линии</li>
-                    <li>Автотрейдинг</li>
-                    <li>ЖелДорЭкспедиция</li>
+                <p class="p1">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах</p>
+                <p class="p2">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями</p>
+                <ul class="deliverers">
+                    <li class="redline">Деловые линии</li>
+                    <li class="redline">Автотрейдинг</li>
+                    <li class="redline">ЖелДорЭкспедиция</li>
                 </ul>
-                <a class="btn  red-btn" href="">Подробнее о компании</a>
+                <button class="btn  red-btn" href="">Подробнее о компании</button>
             </div>
             <div class="contacts">
                 <h2 class="h">Контакты</h2>
                 <p>Вы можете забрать товар сами, заехав в наш офис</p>
                 <img src="" alt="">
-                <a class="btn  red-btn" href="">Заблудились? Напишите нам</a>
+                <button class="btn  red-btn" href="">Заблудились? Напишите нам</button>
             </div>
         </div>
     </main>
@@ -220,12 +221,12 @@
                     <a class="inst-link" href="#"></a>
                 </div>
                 <div class="feedback">
-                    <h4>Обратная связь</h4>
-                    <a href="#">mail@htmlacademy.ru</a>
+                    <h4 class="h">Обратная связь</h4>
+                    <a class="link" href="#">mail@htmlacademy.ru</a>
                 </div>
                 <div class="made-by">
-                    <h4>Разработано —</h4>
-                    <a href="#">htmlacademy.ru</a>
+                    <h4 class="h">Разработано —</h4>
+                    <a class="link" href="#">htmlacademy.ru</a>
                 </div>
             </div>
         </div>

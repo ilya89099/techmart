@@ -1,0 +1,82 @@
+.vk-icon, .new-flag, .insta-icon, .icon-search, .icon-bookmark, .icon-5, .icon-4, .icon-3, .icon-2, .icon-1, .fb-icon, .cart-icon, .basket{
+	background: url(sprites.png) no-repeat;
+}
+
+.vk-icon{
+	background-position: -8px -9px ;
+	width: 26px;
+	height: 15px;
+}
+
+.new-flag{
+	background-position: -293px -17px ;
+	width: 60px;
+	height: 60px;
+}
+
+.insta-icon{
+	background-position: -14px -64px ;
+	width: 21px;
+	height: 21px;
+}
+
+.icon-search{
+	background-position: -17px -217px ;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-bookmark{
+	background-position: -18px -268px ;
+	width: 14px;
+	height: 16px;
+}
+
+.icon-5{
+	background-position: -128px -474px ;
+	width: 78px;
+	height: 63px;
+}
+
+.icon-4{
+	background-position: -134px -339px ;
+	width: 59px;
+	height: 72px;
+}
+
+.icon-3{
+	background-position: -129px -230px ;
+	width: 78px;
+	height: 62px;
+}
+
+.icon-2{
+	background-position: -137px -118px ;
+	width: 75px;
+	height: 61px;
+}
+
+.icon-1{
+	background-position: -147px -8px ;
+	width: 44px;
+	height: 65px;
+}
+
+.fb-icon{
+	background-position: -18px -115px ;
+	width: 12px;
+	height: 22px;
+}
+
+.cart-icon{
+	background-position: -13px -168px ;
+	width: 19px;
+	height: 19px;
+}
+
+.basket{
+	background-position: -19px -320px ;
+	width: 15px;
+	height: 15px;
+}
+
