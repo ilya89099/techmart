@@ -70,8 +70,8 @@
                         </form>
                     </div>
                     <hr>
-                    <h2 class="filter-heading">Производители:</h2>
                     <form class="filters-group" action="">
+                        <h2 class="filter-heading">Производители:</h2>
                         <input type="checkbox" checked id="ch1">
                         <label class="custom-check" for="ch1">Bosch</label>
                         <input type="checkbox" id="ch2">
@@ -84,21 +84,24 @@
                         <label class="custom-check" for="ch5">Hitachi</label>
                     </form>
                     <hr>
-                    <h2 class="filter-heading">Питание:</h2>
                     <form class="filters-group" action="">
-                        <input type="radio" id="rad1" name="rad-group">
+                        <h2 class="filter-heading">Питание:</h2>
+                        <input type="radio" checked id="rad1" name="rad-group">
                         <label class="custom-radio" for="rad1">Аккумуляторные</label>
                         <input type="radio" id="rad2" name="rad-group">
                         <label class="custom-radio" for="rad2">Сетевые</label>
                     </form>
                     <button class="btn" type="submit">Показать</button>
-
                 </div>
                 <div class="catalog-block">
                     <div class="sort">
                         <h2 class="sort-heading">Сортировка:</h2>
                         <div class="sort-types">
-
+                            <button class="btn  type-of-sort  active">По цене</button>
+                            <button class="btn  type-of-sort">По типу</button>
+                            <button class="btn  type-of-sort">По функционалу</button>
+                            <button class="btn  arrow  up-arrow  active"></button>
+                            <button class="btn  arrow  down-arrow"></button>
                         </div>
                     </div>
                     <div class="catalog">
@@ -156,6 +159,12 @@
                             <!--<h3 class="item-old-price  h"><del></del></h3>-->
                             <h3 class="item-new-price  h">12500 Р.</h3>
                         </div>
+                    </div>
+                    <div class="pagination">
+                        <a class="btn  active" href="#">1</a>
+                        <a class="btn" href="#">2</a>
+                        <a class="btn" href="#">3</a>
+                        <a class="btn" href="#">Следующая</a>
                     </div>
                 </div>
             </div>
