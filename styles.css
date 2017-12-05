@@ -284,7 +284,7 @@ button {
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url("images/new-flag.png");
+    background: url("images/sprites.png") no-repeat -623px -189px;
     width: 60px;
     height: 60px;
 }
@@ -332,22 +332,34 @@ body {
 
 .top-menu .btn {
     font-size: 17px;
+    width: 150px;
+    text-align: center;
     line-height: 18px;
     color: #FFF;
     text-decoration: none;
 }
 
 .top-menu form {
-    margin-left: -10px;
+    padding: 0;
 }
 
 .top-menu .search {
-    margin-top: 7px;
+    width: 270px;
     border: none;
-    background: url("images/sprites.png") no-repeat -459px -658px, #293449;
+    background: url("images/sprites.png") no-repeat -459px -652px, #293449;
     padding-left: 30px;
-    padding: 5px 0 5px 30px;
+    padding: 13px 0 11px 30px;
     color: #FFF;
+}
+
+.search:hover {
+    background: url("images/sprites.png") no-repeat -465px -704px, #212A3A;
+}
+
+.search:focus {
+    background: url("images/sprites.png") no-repeat -460px -756px, #FFF;
+    color: #000;
+    outline: none;
 }
 
 .search::-webkit-input-placeholder {
@@ -364,12 +376,20 @@ body {
 
 .bookmarks-link {
     padding: 12px 0 12px 25px;
-    background: url("images/sprites.png") no-repeat -216px -653px;
+    background: url("images/sprites.png") no-repeat -196px -654px;
+}
+
+.bookmarks-link:hover {
+    background: url("images/sprites.png") no-repeat -196px -706px, #212A3A;
 }
 
 .basket-link {
     padding: 12px 0 12px 25px;
-    background: url("images/sprites.png") no-repeat -18px -659px;
+    background: url("images/sprites.png") no-repeat 2px -659px;
+}
+
+.basket-link:hover {
+    background: url("images/sprites.png") no-repeat 3px -704px, #212A3A;
 }
 
 .place-an-order {
@@ -377,6 +397,10 @@ body {
     text-align: center;
     background-color: #63A63E;
     width: 150px;
+}
+
+.place-an-order:hover {
+    background-color: #5FBB2D;
 }
 
 .logo {
@@ -467,17 +491,25 @@ body {
 .site-navigation {
     background-color: #32425C;
     border-bottom: 5px solid #293449;
-    padding-top: 6px;
-    padding-bottom: 6px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .site-navigation .btn {
     text-decoration: none;
     color: #FFF;
+    padding: 20px 34px 20px 33px;
     font-size: 17px;
     line-height: 17px;
+}
+
+.site-navigation .btn:hover {
+    background-color: #293449;
+}
+
+.site-navigation .btn:active {
+    background-color: #293449;
+    color: #8E939C;
 }
 
 .first-block {
@@ -605,6 +637,7 @@ body {
 
 .popular-catalog .item-old-price {
     margin-bottom: 15px;
+    min-height: 21px;
     color: #AAA;
 }
 
@@ -737,6 +770,11 @@ body {
     position: relative;
     padding-left: 40px;
     margin-bottom: 15px;
+}
+
+.contacts iframe {
+    width: 300px;
+    height: 160px;
 }
 
 .tech-footer {
@@ -880,7 +918,7 @@ body {
     top: 2px;
     width: 8px;
     height: 14px;
-    background: url("images/icon-right-small.png") no-repeat;
+    background: url("images/sprites.png") no-repeat -74px -470px;
 }
 
 .catalog--filters {
@@ -1013,11 +1051,11 @@ body {
     height: 25px;
     left: 0;
     top: 2px;
-    background: url("images/checkbox-off.png") no-repeat;
+    background: url("images/sprites.png") no-repeat -14px -462px;
 }
 
 .filters-group input[type="checkbox"]:checked+label:after {
-    background: url("images/checkbox-on.png") no-repeat;
+    background: url("images/sprites.png") no-repeat -11px -313px;
 }
 
 .custom-radio {
@@ -1031,11 +1069,11 @@ body {
     height: 25px;
     left: 0;
     top: 2px;
-    background: url("images/radio-off.png") no-repeat;
+    background: url("images/sprites.png") no-repeat -12px -163px;
 }
 
 .filters-group input[type="radio"]:checked+label:after {
-    background: url("images/radio-on.png") no-repeat;
+    background: url("images/sprites.png") no-repeat -12px -12px;
 }
 
 .filters .btn {
@@ -1088,6 +1126,7 @@ body {
 
 .catalog-item .item-old-price {
     margin-bottom: 15px;
+    min-height: 21px;
     color: #AAA;
 }
 
