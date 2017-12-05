@@ -346,18 +346,17 @@ body {
 .top-menu .search {
     width: 270px;
     border: none;
-    background: url("images/sprites.png") no-repeat -459px -652px, #293449;
-    padding-left: 30px;
-    padding: 13px 0 11px 30px;
+    background: url("images/sprites.png") no-repeat -445px -652px, #293449;
+    padding: 13px 0 11px 50px;
     color: #FFF;
 }
 
 .search:hover {
-    background: url("images/sprites.png") no-repeat -465px -704px, #212A3A;
+    background: url("images/sprites.png") no-repeat -451px -704px, #212A3A;
 }
 
 .search:focus {
-    background: url("images/sprites.png") no-repeat -460px -756px, #FFF;
+    background: url("images/sprites.png") no-repeat -446px -756px, #FFF;
     color: #000;
     outline: none;
 }
@@ -589,7 +588,15 @@ body {
 .card .btn {
     border-radius: 5px;
     padding: 14px 24px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(37, 37, 37, 0.2);
+}
+
+.card .btn:hover {
+    background-color: rgba(37, 37, 37, 0.4);
+}
+
+.card .btn:active {
+    background-color: rgba(37, 37, 37, 0.6);
 }
 
 .popular-heading {
@@ -613,6 +620,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.hover-btns {
+    display: none;
 }
 
 .item {
@@ -651,6 +662,7 @@ body {
 .image-wrap {
     display: flex;
     height: 180px;
+    position: relative;
 }
 
 .image-wrap img {
