@@ -1,298 +1,345 @@
-.radio-on, .radio-on-hover, .radio-on-blocked, .radio-off, .radio-off-hover, .radio-off-blocked, .checkbox-on, .checkbox-on-hover, .checkbox-on-blocked, .checkbox-off, .checkbox-off-hover, .checkbox-off-blocked, .vk-icon, .fb-icon, .insta-icon, .icon-up, .icon-up-hover, .icon-up-active, .icon-down, .icon-down-hover, .icon-down-active, .phone, .cart-icon, .cart-icon-hover, .cart-icon-click, .icon-bookmark, .icon-bookmark-hover, .icon-bookmark-click, .icon-search, .icon-search-hover, .icon-search-focus, .icon-user, .icon-user-hover, .icon-user-click, .icon-logout, .icon-login-hover, .icon-logout-hover, .icon-logout-click, .icon-login, .icon-login-click, .icon-right-small, .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .for-price, .new-flag, .icon-home{
-	background: url(sprites.png) no-repeat;
+.radio-on,
+.radio-on-hover,
+.radio-on-blocked,
+.radio-off,
+.radio-off-hover,
+.radio-off-blocked,
+.checkbox-on,
+.checkbox-on-hover,
+.checkbox-on-blocked,
+.checkbox-off,
+.checkbox-off-hover,
+.checkbox-off-blocked,
+.vk-icon,
+.fb-icon,
+.insta-icon,
+.icon-up,
+.icon-up-hover,
+.icon-up-active,
+.icon-down,
+.icon-down-hover,
+.icon-down-active,
+.phone,
+.cart-icon,
+.cart-icon-hover,
+.cart-icon-click,
+.icon-bookmark,
+.icon-bookmark-hover,
+.icon-bookmark-click,
+.icon-search,
+.icon-search-hover,
+.icon-search-focus,
+.icon-user,
+.icon-user-hover,
+.icon-user-click,
+.icon-logout,
+.icon-login-hover,
+.icon-logout-hover,
+.icon-logout-click,
+.icon-login,
+.icon-login-click,
+.icon-right-small,
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.for-price,
+.new-flag,
+.icon-home {
+    background: url(sprites.png) no-repeat;
 }
 
-.radio-on{
-	background-position: -12px -12px ;
-	width: 25px;
-	height: 25px;
+.radio-on {
+    background-position: -12px -12px;
+    width: 25px;
+    height: 25px;
 }
 
-.radio-on-hover{
-	background-position: -12px -59px ;
-	width: 25px;
-	height: 25px;
+.radio-on-hover {
+    background-position: -12px -59px;
+    width: 25px;
+    height: 25px;
 }
 
-.radio-on-blocked{
-	background-position: -11px -112px ;
-	width: 25px;
-	height: 25px;
+.radio-on-blocked {
+    background-position: -11px -112px;
+    width: 25px;
+    height: 25px;
 }
 
-.radio-off{
-	background-position: -12px -163px ;
-	width: 25px;
-	height: 25px;
+.radio-off {
+    background-position: -12px -163px;
+    width: 25px;
+    height: 25px;
 }
 
-.radio-off-hover{
-	background-position: -12px -211px ;
-	width: 25px;
-	height: 25px;
+.radio-off-hover {
+    background-position: -12px -211px;
+    width: 25px;
+    height: 25px;
 }
 
-.radio-off-blocked{
-	background-position: -11px -262px ;
-	width: 25px;
-	height: 25px;
+.radio-off-blocked {
+    background-position: -11px -262px;
+    width: 25px;
+    height: 25px;
 }
 
-.checkbox-on{
-	background-position: -11px -313px ;
-	width: 27px;
-	height: 23px;
+.checkbox-on {
+    background-position: -11px -313px;
+    width: 27px;
+    height: 23px;
 }
 
-.checkbox-on-hover{
-	background-position: -10px -362px ;
-	width: 27px;
-	height: 23px;
+.checkbox-on-hover {
+    background-position: -10px -362px;
+    width: 27px;
+    height: 23px;
 }
 
-.checkbox-on-blocked{
-	background-position: -9px -412px ;
-	width: 27px;
-	height: 23px;
+.checkbox-on-blocked {
+    background-position: -9px -412px;
+    width: 27px;
+    height: 23px;
 }
 
-.checkbox-off{
-	background-position: -14px -513px ;
-	width: 23px;
-	height: 23px;
+.checkbox-off-hover {
+    background-position: -14px -513px;
+    width: 23px;
+    height: 23px;
 }
 
-.checkbox-off-hover{
-	background-position: -14px -462px ;
-	width: 23px;
-	height: 23px;
+.checkbox-off {
+    background-position: -14px -462px;
+    width: 23px;
+    height: 23px;
 }
 
-.checkbox-off-blocked{
-	background-position: -14px -562px ;
-	width: 23px;
-	height: 23px;
+.checkbox-off-blocked {
+    background-position: -14px -562px;
+    width: 23px;
+    height: 23px;
 }
 
-.vk-icon{
-	background-position: -61px -19px ;
-	width: 26px;
-	height: 15px;
+.vk-icon {
+    background-position: -61px -19px;
+    width: 26px;
+    height: 15px;
 }
 
-.fb-icon{
-	background-position: -69px -63px ;
-	width: 12px;
-	height: 22px;
+.fb-icon {
+    background-position: -69px -63px;
+    width: 12px;
+    height: 22px;
 }
 
-.insta-icon{
-	background-position: -66px -113px ;
-	width: 21px;
-	height: 21px;
+.insta-icon {
+    background-position: -66px -113px;
+    width: 21px;
+    height: 21px;
 }
 
-.icon-up{
-	background-position: -67px -169px ;
-	width: 11px;
-	height: 10px;
+.icon-up {
+    background-position: -67px -169px;
+    width: 11px;
+    height: 10px;
 }
 
-.icon-up-hover{
-	background-position: -69px -218px ;
-	width: 11px;
-	height: 10px;
+.icon-up-hover {
+    background-position: -69px -218px;
+    width: 11px;
+    height: 10px;
 }
 
-.icon-up-active{
-	background-position: -70px -270px ;
-	width: 11px;
-	height: 10px;
+.icon-up-active {
+    background-position: -70px -270px;
+    width: 11px;
+    height: 10px;
 }
 
-.icon-down{
-	background-position: -70px -319px ;
-	width: 11px;
-	height: 10px;
+.icon-down {
+    background-position: -70px -319px;
+    width: 11px;
+    height: 10px;
 }
 
-.icon-down-hover{
-	background-position: -70px -370px ;
-	width: 11px;
-	height: 10px;
+.icon-down-hover {
+    background-position: -70px -370px;
+    width: 11px;
+    height: 10px;
 }
 
-.icon-down-active{
-	background-position: -70px -420px ;
-	width: 11px;
-	height: 10px;
+.icon-down-active {
+    background-position: -70px -420px;
+    width: 11px;
+    height: 10px;
 }
 
-.phone{
-	background-position: -17px -614px ;
-	width: 19px;
-	height: 19px;
+.phone {
+    background-position: -17px -614px;
+    width: 19px;
+    height: 19px;
 }
 
-.cart-icon{
-	background-position: -19px -672px ;
-	width: 15px;
-	height: 15px;
+.cart-icon {
+    background-position: -19px -672px;
+    width: 15px;
+    height: 15px;
 }
 
-.cart-icon-hover{
-	background-position: -18px -717px ;
-	width: 15px;
-	height: 15px;
+.cart-icon-hover {
+    background-position: -18px -717px;
+    width: 15px;
+    height: 15px;
 }
 
-.cart-icon-click{
-	background-position: -19px -766px ;
-	width: 15px;
-	height: 15px;
+.cart-icon-click {
+    background-position: -19px -766px;
+    width: 15px;
+    height: 15px;
 }
 
-.icon-bookmark{
-	background-position: -219px -666px ;
-	width: 14px;
-	height: 16px;
+.icon-bookmark {
+    background-position: -219px -666px;
+    width: 14px;
+    height: 16px;
 }
 
-.icon-bookmark-hover{
-	background-position: -219px -718px ;
-	width: 14px;
-	height: 16px;
+.icon-bookmark-hover {
+    background-position: -219px -718px;
+    width: 14px;
+    height: 16px;
 }
 
-.icon-bookmark-click{
-	background-position: -219px -767px ;
-	width: 14px;
-	height: 16px;
+.icon-bookmark-click {
+    background-position: -219px -767px;
+    width: 14px;
+    height: 16px;
 }
 
-.icon-search{
-	background-position: -464px -664px ;
-	width: 17px;
-	height: 17px;
+.icon-search {
+    background-position: -464px -664px;
+    width: 17px;
+    height: 17px;
 }
 
-.icon-search-hover{
-	background-position: -470px -716px ;
-	width: 17px;
-	height: 17px;
+.icon-search-hover {
+    background-position: -470px -716px;
+    width: 17px;
+    height: 17px;
 }
 
-.icon-search-focus{
-	background-position: -465px -768px ;
-	width: 17px;
-	height: 17px;
+.icon-search-focus {
+    background-position: -465px -768px;
+    width: 17px;
+    height: 17px;
 }
 
-.icon-user{
-	background-position: -1015px -63px ;
-	width: 20px;
-	height: 18px;
+.icon-user {
+    background-position: -1015px -63px;
+    width: 20px;
+    height: 18px;
 }
 
-.icon-user-hover{
-	background-position: -1015px -116px ;
-	width: 20px;
-	height: 18px;
+.icon-user-hover {
+    background-position: -1015px -116px;
+    width: 20px;
+    height: 18px;
 }
 
-.icon-user-click{
-	background-position: -1015px -162px ;
-	width: 20px;
-	height: 18px;
+.icon-user-click {
+    background-position: -1015px -162px;
+    width: 20px;
+    height: 18px;
 }
 
-.icon-logout{
-	background-position: -817px -667px ;
-	width: 20px;
-	height: 17px;
+.icon-logout {
+    background-position: -817px -667px;
+    width: 20px;
+    height: 17px;
 }
 
-.icon-login-hover{
-	background-position: -1013px -713px ;
-	width: 20px;
-	height: 17px;
+.icon-login-hover {
+    background-position: -1013px -713px;
+    width: 20px;
+    height: 17px;
 }
 
-.icon-logout-hover{
-	background-position: -816px -718px ;
-	width: 21px;
-	height: 17px;
+.icon-logout-hover {
+    background-position: -816px -718px;
+    width: 21px;
+    height: 17px;
 }
 
-.icon-logout-click{
-	background-position: -818px -769px ;
-	width: 20px;
-	height: 17px;
+.icon-logout-click {
+    background-position: -818px -769px;
+    width: 20px;
+    height: 17px;
 }
 
-.icon-login{
-	background-position: -1016px -666px ;
-	width: 20px;
-	height: 17px;
+.icon-login {
+    background-position: -1016px -666px;
+    width: 20px;
+    height: 17px;
 }
 
-.icon-login-click{
-	background-position: -1017px -769px ;
-	width: 20px;
-	height: 17px;
+.icon-login-click {
+    background-position: -1017px -769px;
+    width: 20px;
+    height: 17px;
 }
 
-.icon-right-small{
-	background-position: -74px -471px ;
-	width: 8px;
-	height: 12px;
+.icon-right-small {
+    background-position: -74px -471px;
+    width: 8px;
+    height: 12px;
 }
 
-.icon-1{
-	background-position: -353px -12px ;
-	width: 44px;
-	height: 65px;
+.icon-1 {
+    background-position: -353px -12px;
+    width: 44px;
+    height: 65px;
 }
 
-.icon-2{
-	background-position: -337px -129px ;
-	width: 75px;
-	height: 61px;
+.icon-2 {
+    background-position: -337px -129px;
+    width: 75px;
+    height: 61px;
 }
 
-.icon-3{
-	background-position: -332px -245px ;
-	width: 78px;
-	height: 62px;
+.icon-3 {
+    background-position: -332px -245px;
+    width: 78px;
+    height: 62px;
 }
 
-.icon-4{
-	background-position: -346px -354px ;
-	width: 59px;
-	height: 72px;
+.icon-4 {
+    background-position: -346px -354px;
+    width: 59px;
+    height: 72px;
 }
 
-.icon-5{
-	background-position: -341px -500px ;
-	width: 78px;
-	height: 63px;
+.icon-5 {
+    background-position: -341px -500px;
+    width: 78px;
+    height: 63px;
 }
 
-.for-price{
-	background-position: -582px -33px ;
-	width: 141px;
-	height: 38px;
+.for-price {
+    background-position: -582px -33px;
+    width: 141px;
+    height: 38px;
 }
 
-.new-flag{
-	background-position: -623px -189px ;
-	width: 60px;
-	height: 60px;
+.new-flag {
+    background-position: -623px -189px;
+    width: 60px;
+    height: 60px;
 }
 
-.icon-home{
-	background-position: -1118px -67px ;
-	width: 14px;
-	height: 12px;
+.icon-home {
+    background-position: -1118px -67px;
+    width: 14px;
+    height: 12px;
 }
-

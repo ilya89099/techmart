@@ -130,6 +130,11 @@ textarea {
     margin: 0;
 }
 
+button:active,
+button:focus {
+    outline: none;
+}
+
 button,
 input {
     overflow: visible;
@@ -164,6 +169,16 @@ button:-moz-focusring,
 
 fieldset {
     padding: 0.35em 0.75em 0.625em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 legend {
@@ -251,10 +266,6 @@ a {
     display: inline-block;
 }
 
-.h {
-    margin: 0;
-}
-
 button {
     border: none;
 }
@@ -280,6 +291,7 @@ button {
 }
 
 .new::before {
+    z-index: 1;
     content: "";
     position: absolute;
     top: 0;
@@ -657,51 +669,8 @@ body {
     margin-bottom: 20px;
 }
 
-.hover-btns {
-    display: none;
-}
-
-.item {
-    width: 220px;
-    text-align: center;
-    border: 1px solid #EAEAEA;
-}
-
-.popular-catalog .item {
-    height: 320px;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.popular-catalog .item-name {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    width: 160px;
-    margin-bottom: 15px;
-}
-
-.popular-catalog .item-old-price {
-    margin-bottom: 15px;
-    min-height: 21px;
-    color: #AAA;
-}
-
-.popular-catalog .item-new-price {
-    color: #FFF;
-    padding: 7px;
-    background: #EE3643;
-    background: url("images/for-price.png") no-repeat 38px -2px;
-}
-
-.image-wrap {
-    display: flex;
-    height: 180px;
-    position: relative;
-}
-
-.image-wrap img {
-    margin: auto;
+.popular-catalog .catalog-item {
+    margin-right: 0;
 }
 
 .manufacturers-list {
@@ -711,6 +680,9 @@ body {
 }
 
 .manufacturers-list .item {
+    width: 220px;
+    text-align: center;
+    border: 1px solid #EAEAEA;
     opacity: 1;
     transition: opacity .2s ease;
     height: 145px;
@@ -746,6 +718,7 @@ body {
 }
 
 .services .h {
+    margin-bottom: 20px;
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -806,6 +779,7 @@ body {
 }
 
 .company--contacts .h {
+    margin-bottom: 30px;
     font-size: 30px;
     line-height: 24px;
     text-transform: uppercase;
@@ -819,10 +793,12 @@ body {
 
 .company--contacts .p1 {
     width: 525px;
+    margin-bottom: 30px;
 }
 
 .company--contacts .p2 {
     width: 390px;
+    margin-bottom: 30px;
 }
 
 .deliverers {
@@ -837,11 +813,6 @@ body {
     position: relative;
     padding-left: 40px;
     margin-bottom: 15px;
-}
-
-.contacts iframe {
-    width: 300px;
-    height: 160px;
 }
 
 .tech-footer {
@@ -1032,7 +1003,8 @@ body {
 }
 
 .catalog-heading {
-    background-color: #f2f6f8;
+    margin-bottom: 25px;
+    background-color: #F2F6F8;
     color: #32425C;
     text-transform: uppercase;
     padding: 30px 20px 25px 20px;
@@ -1159,7 +1131,6 @@ body {
 .filters-group label {
     margin-bottom: 10px;
     display: inline-block;
-    padding: 3px 30px;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
@@ -1167,6 +1138,7 @@ body {
 
 .custom-check {
     position: relative;
+    padding: 3px 30px;
 }
 
 .custom-check::after {
@@ -1179,11 +1151,20 @@ body {
     background: url("images/sprites.png") no-repeat -14px -462px;
 }
 
+.custom-check:hover::after {
+    background: url("images/sprites.png") no-repeat -14px -513px;
+}
+
 .filters-group input[type="checkbox"]:checked+label:after {
     background: url("images/sprites.png") no-repeat -11px -313px;
 }
 
+.filters-group input[type="checkbox"]:checked+label:hover:after {
+    background: url("images/sprites.png") no-repeat -10px -362px;
+}
+
 .custom-radio {
+    padding: 5px 30px;
     position: relative;
 }
 
@@ -1197,8 +1178,16 @@ body {
     background: url("images/sprites.png") no-repeat -12px -163px;
 }
 
+.custom-radio:hover::after {
+    background: url("images/sprites.png") no-repeat -12px -211px;
+}
+
 .filters-group input[type="radio"]:checked+label:after {
     background: url("images/sprites.png") no-repeat -12px -12px;
+}
+
+.filters-group input[type="radio"]:checked+label:hover:after {
+    background: url("images/sprites.png") no-repeat -12px -59px;
 }
 
 .filters .btn {
@@ -1227,6 +1216,7 @@ body {
 }
 
 .catalog-item {
+    position: relative;
     width: 220px;
     text-align: center;
     border: 1px solid #EAEAEA;
@@ -1234,6 +1224,81 @@ body {
     font-family: 'PT Sans', sans-serif;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.image-wrap {
+    display: flex;
+    height: 180px;
+    position: relative;
+    transition: opacity .2s ease;
+}
+
+.image-wrap img {
+    margin: auto;
+}
+
+.item-btns {
+    z-index: 1;
+    position: absolute;
+    display: none;
+    width: 135px;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.item-btns .btn {
+    display: block;
+    width: 135px;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 11px 10px 11px;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.item-btns .buy {
+    color: #FFF;
+    background: url("images/sprites.png") no-repeat -4px -663px, #63A63E;
+    border-bottom: 3px solid #367315;
+    margin-bottom: 7px;
+}
+
+.item-btns .buy:hover {
+    background: url("images/sprites.png") no-repeat -3px -708px, #5FBB2D;
+}
+
+.item-btns .buy:active {
+    border-color: #518534;
+    background: url("images/sprites.png") no-repeat -3px -708px, #518534;
+}
+
+.item-btns .add-to-bookmarks {
+    background-color: #FFF;
+    color: #32425C;
+    border: 3px solid #63A63E;
+}
+
+.item-btns .add-to-bookmarks:hover {
+    background-color: #FFF;
+    color: #32425C;
+    border-color: #32425C;
+}
+
+.item-btns .add-to-bookmarks:active {
+    background-color: #FFF;
+    color: #C1C6CE;
+    border-color: #C1C6CE;
+}
+
+.catalog-item:hover .item-btns {
+    display: block;
+}
+
+.catalog-item:hover .image-wrap {
+    opacity: 0;
 }
 
 .catalog-item:nth-child(3n) {
@@ -1245,7 +1310,7 @@ body {
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
-    width: 160px;
+    padding: 0 30px;
     margin-bottom: 15px;
 }
 
