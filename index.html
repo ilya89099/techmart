@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 </head>
 
-<body>
+<body class="index-body">
     <header class="tech-header">
         <div class="top-menu">
             <div class="container">
@@ -31,8 +31,10 @@
                         <h1 class="phone  h">+7 (812) 555-05-55</h1>
                         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                     </div>
-                    <a class="btn  sign-in" href="#">Войти</a>
-                    <a class="btn  register" href="#">Регистрация</a>
+                    <div class="login-block">
+                        <a class="btn  sign-in" href="#">Войти</a>
+                        <a class="btn  register" href="#">Регистрация</a>
+                    </div>
                 </div>
                 <nav class="site-navigation">
                     <a class="btn" href="#">Главная</a>
@@ -50,7 +52,7 @@
         <div class="first-block clearfix  container">
             <div class="card card1">
                 <h2 class="h">Материалы</h2>
-                <a class="btn" href="#">На любой вкус</a>
+                <a class="btn" href="fuck.html">На любой вкус</a>
             </div>
             <div class="card card2">
                 <h2 class="h">Инструмент</h2>
@@ -60,16 +62,28 @@
                 <h2 class="h">Техника</h2>
                 <a class="btn" href="#">Для стройки</a>
             </div>
-            <div class="slider">
-                <div class="slider-changable  slider-first">
-                    <h2 class="h">Перфораторы</h2>
-                    <span>Настоящие мужские игрушки</span>
+            <input class="first-slider-radio" type="radio" name="first-slider" id="first-radio-1" checked>
+            <input class="first-slider-radio" type="radio" name="first-slider" id="first-radio-2">
+            <div class="first-slider">
+                <div class="slider-controls">
+                    <label for="first-radio-1"></label>
+                    <label for="first-radio-2"></label>
                 </div>
-                <div class="slider-changable  slider-second">
-                    <h2>Дрели</h2>
-                    <span>Соседям на радость!</span>
+                <div class="slide  slide1">
+                    <div class="slide-tint">
+                        <h2 class="h">Перфораторы</h2>
+                        <span>Настоящие мужские игрушки</span>
+                    </div>
+                    <a class="btn  red-btn" href="catalog.html">Открыть каталог</a>
                 </div>
-                <a class="btn  red-btn" href="catalog.html">Открыть каталог</a>
+                <div class="slide  slide2">
+                    <div class="slide-tint">
+                        <h2 class="h">Дрели</h2>
+                        <span>Соседям на радость!</span>
+                    </div>
+                    <a class="btn  red-btn" href="catalog.html">Открыть каталог</a>
+                </div>
+
             </div>
             <div class="card card4">
                 <h2 class="h">Скидки 50%</h2>
@@ -169,20 +183,33 @@
             <div class="container">
                 <h2 class="h">Сервисы</h2>
                 <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-                <div class="second-slider">
-                    <form class="services-buttons-block">
-                        <input class="services-input" type="radio" checked id="radio-1" name="radiogroup">
-                        <label for="radio-1">Доставка</label>
-                        <input class="services-input" type="radio" id="radio-2" name="radiogroup">
-                        <label for="radio-2">Гарантия</label>
-                        <input class="services-input" type="radio" id="radio-3" name="radiogroup">
-                        <label for="radio-3">Кредит</label>
-                    </form>
-                    <div class="services-changable-text-block">
-                        <h2 class="h">Доставка</h2>
-                        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                <input class="second-slider-input" type="radio" id="product-1" name="second-slider" checked>
+                <input class="second-slider-input" type="radio" id="product-2" name="second-slider">
+                <input class="second-slider-input" type="radio" id="product-3" name="second-slider">
+                <section class="second-slider">
+                    <div class="slider-controls">
+                        <label for="product-1">Доставка</label>
+                        <label for="product-2">Гарантия</label>
+                        <label for="product-3">Кредит</label>
                     </div>
-                </div>
+                    <ul class="slider-list">
+                        <li class="slide  slide1">
+                            <h3 class="h">Доставка</h3>
+                            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                        </li>
+                        <li class="slide  slide2">
+                            <h3 class="h">Гарантия</h3>
+                            <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь
+                                сами.
+                            </p>
+                        </li>
+                        <li class="slide  slide3">
+                            <h3 class="h">Кредит</h3>
+                            <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+                            <a class="btn  red-btn">Отправить заявку</a>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </div>
         <div class="company--contacts">
