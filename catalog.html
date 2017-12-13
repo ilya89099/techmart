@@ -19,7 +19,7 @@
                     <input class="search" type="text" placeholder="Поиск:" name="search">
                 </form>
                 <a class="btn  top-icon  bookmarks-link" href="#">Закладки: 0</a>
-                <a class="btn  top-icon  basket-link" href="#">Корзина: 0</a>
+                <a class="btn  top-icon  basket-link" href="#">Корзина: 10</a>
                 <a class="btn  place-an-order" href="#">Оформить заказ</a>
             </div>
         </div>
@@ -33,9 +33,10 @@
                     </div>
                     <div class="login-block">
                         <a class="btn  signed-account" href="#">Равшан Джамшутович</a>
+                        <a class="btn  logout" href="#"></a>
                         <div class="login-actions">
                             <a class="orders" href="#">Мои заказы</a>
-                            <a class="deco-point  account-details" href="#">Личный кабинет</a>
+                            <a class="account-details" href="#">Личный кабинет</a>
                         </div>
                     </div>
                 </div>
@@ -67,11 +68,17 @@
                     </div>
                     <h2 class="filter-heading">Цена:</h2>
                     <div class="catalog-slider">
-                        <div class="line"></div>
+                        <div class="price-range-controls">
+                            <div class="scale">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="range-toggle  min-toggle"></div>
+                            <div class="range-toggle  max-toggle"></div>
+                        </div>
                         <form class="price-limits" action="">
-                            <input class="smallest-price" type="text" value="0" placeholder="Min">
+                            <input class="min-price" type="text" value="0" placeholder="Min">
                             <span>—</span>
-                            <input class="greatest-price" type="text" value="30000" placeholder="Max">
+                            <input class="max-price" type="text" value="30000" placeholder="Max">
                         </form>
                     </div>
                     <hr>

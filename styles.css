@@ -481,15 +481,15 @@ body {
 .info {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-top: 46px;
-    padding-left: 50px;
     padding-bottom: 46px;
 }
 
 .info .description {
     margin: 0;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 10px;
     width: 190px;
     font-style: italic;
     color: #EE3643;
@@ -516,7 +516,6 @@ body {
 }
 
 .info .call-us {
-    margin-right: 51px;
     min-width: 270px;
 }
 
@@ -530,6 +529,7 @@ body {
 
 .info .sign-in {
     margin-right: 10px;
+    margin-left: 25px;
     padding-left: 40px;
     background: url("images/sprites.png") no-repeat -1007px -653px, #FFF;
 }
@@ -1018,8 +1018,9 @@ body {
     padding: 27px 0 23px 0;
 }
 
-.bot-links p {
+.bot-links .copyright {
     margin: 0;
+    margin-right: 130px;
 }
 
 .bot-links .link:hover {
@@ -1085,12 +1086,53 @@ body {
     margin-bottom: 0;
 }
 
-.login-block .signed-account {
+.techmart-catalog .basket-link {
+    background-color: #EE3643;
+}
+
+.login-block {
     width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.login-block .signed-account {
+    padding-left: 40px;
+    width: 255px;
+}
+
+.login-block .logout {
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 0;
+    background: url("images/sprites.png") no-repeat -811px -654px, #FFF;
 }
 
 .login-actions {
     padding-top: 8px;
+}
+
+.signed-account {
+    background: url("images/sprites.png") no-repeat -1005px -51px, #FFF;
+}
+
+.signed-account:hover {
+    background: url("images/sprites.png") no-repeat -1005px -104px, #FFF;
+}
+
+.signed-account:active {
+    background: url("images/sprites.png") no-repeat -1005px -150px, url("images/sprites.png") no-repeat -561px -757px, #FFF;
+    color: #B2B2B2;
+}
+
+.logout:hover {
+    background: url("images/sprites.png") no-repeat -811px -705px, #FFF;
+}
+
+.logout:active {
+    background: url("images/sprites.png") no-repeat -812px -756px, #FFF;
 }
 
 .login-actions a {
@@ -1100,6 +1142,14 @@ body {
     position: relative;
     font-size: 16px;
     line-height: 18px;
+}
+
+.login-actions a:hover {
+    color: #EE3643;
+}
+
+.login-actions a:active {
+    color: #B2B2B2;
 }
 
 .account-details::after {
@@ -1131,7 +1181,7 @@ body {
     margin-right: 6px;
     width: 16px;
     height: 14px;
-    background: url("images/sprites.png") no-repeat -1118px -65px;
+    background: url("images/sprites.png") no-repeat -815px -116px;
 }
 
 .catalog-breadcrumbs .real-breadcrumb {
@@ -1255,6 +1305,55 @@ body {
     font-size: 17px;
     line-height: 30px;
     margin-bottom: 15px;
+}
+
+.price-range-controls {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #f7f3EC;
+    position: relative;
+    padding: 39px 10% 39px 10%;
+}
+
+.price-range-controls .scale {
+    width: 100%;
+    background-color: #D7DCDE;
+    height: 2px;
+}
+
+.price-range-controls .bar {
+    background-color: #00CA74;
+    height: 2px;
+    width: 85%;
+}
+
+.price-range-controls .range-toggle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 8px solid #FFF;
+    background-color: #ABABAB;
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.price-range-controls .range-toggle:hover {
+    background-color: #00CA74;
+}
+
+.price-range-controls .range-toggle:active {
+    background-color: #000;
+}
+
+.price-range-controls .range-toggle-min {
+    left: 10%;
+}
+
+.price-range-controls .max-toggle {
+    left: 78%;
 }
 
 .price-limits input {
