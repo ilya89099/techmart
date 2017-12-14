@@ -39,7 +39,7 @@
                 <nav class="site-navigation">
                     <a class="btn" href="#">Главная</a>
                     <a class="btn" href="#">Компания</a>
-                    <a class="btn" href="catalog.html">Каталог</a>
+                    <a class="btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Каталог</a>
                     <a class="btn" href="#">Новости</a>
                     <a class="btn" href="#">Спецпредложения</a>
                     <a class="btn" href="#">Доставка</a>
@@ -52,7 +52,7 @@
         <div class="first-block clearfix  container">
             <div class="card card1">
                 <h2 class="h">Материалы</h2>
-                <a class="btn" href="fuck.html">На любой вкус</a>
+                <a class="btn" href="map.html">На любой вкус</a>
             </div>
             <div class="card card2">
                 <h2 class="h">Инструмент</h2>
@@ -74,14 +74,14 @@
                         <h2 class="h">Перфораторы</h2>
                         <span>Настоящие мужские игрушки</span>
                     </div>
-                    <a class="btn  red-btn" href="catalog.html">Открыть каталог</a>
+                    <a class="btn  red-btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Открыть каталог</a>
                 </div>
                 <div class="slide  slide2">
                     <div class="slide-tint">
                         <h2 class="h">Дрели</h2>
                         <span>Соседям на радость!</span>
                     </div>
-                    <a class="btn  red-btn" href="catalog.html">Открыть каталог</a>
+                    <a class="btn  red-btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Открыть каталог</a>
                 </div>
 
             </div>
@@ -227,8 +227,11 @@
                 </div>
                 <div class="contacts">
                     <h2 class="h">Контакты</h2>
-                    <p>Вы можете забрать товар сами, заехав в наш офис</p>
-                    <button class="btn  red-btn">Заблудились? Напишите нам</button>
+                    <p>Вы можете забрать товар сами,
+                        <br> заехав в наш офис</p>
+                    <div id="map1"></div>
+
+                    <button class="write-us  btn  red-btn">Заблудились? Напишите нам</button>
                 </div>
             </div>
         </div>
@@ -281,6 +284,38 @@
             </div>
         </div>
     </footer>
+    <div class="write-us-modal">
+        <button class="close-modal  cm1"></button>
+        <form action="">
+            <div class="modal-inputs">
+                <div class="modal-container">
+                    <div class="input-group  name-group">
+                        <label for="">Ваше имя:</label>
+                        <input placeholder="Представьтесь, пожалуйста" class="name" type="text">
+                    </div>
+                    <div class="input-group  mail-group">
+                        <label for="">Ваш e-mail:</label>
+                        <input placeholder="Для отправки ответа" class="mail" type="text">
+                    </div>
+                    <div class="input-group  comment-group">
+                        <label for="">Текст письма:</label>
+                        <textarea placeholder="В свободной форме" class="comment" rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-btn-tint">
+                <div class="modal-container">
+                    <button type="submit" class="red-btn  btn  modal-submit">Отправить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-map">
+        <button class="close-modal  cm2"></button>
+        <div id="map2"></div>
+    </div>
+    <script src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz8cpQl7KrBddp28C7JVMBcbpG6IFLi9E&callback=initMap"></script>
 </body>
 
 </html>
