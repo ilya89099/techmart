@@ -43,13 +43,13 @@ function initMap() {
         position: place,
         map: map1,
         icon: ("images/b3.png"),
-        title: "Hello World!"
+        title: "Пора выбирать"
     });
 
     var marker2 = new google.maps.Marker({
         position: place,
         map: map2,
         icon: ("images/b3.png"),
-        title: "Hello World!"
+        title: "Пора выбирать"
     });
 }
