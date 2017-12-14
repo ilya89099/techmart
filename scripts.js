@@ -4,6 +4,8 @@ var closeModal2 = document.querySelector(".cm2")
 var modalWindow = document.querySelector(".write-us-modal")
 var modalMap = document.querySelector(".modal-map")
 
+setTimeout(function() { modalMap.classList.add("closed"); }, 500)
+
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
 })
@@ -14,13 +16,13 @@ closeModal1.addEventListener("click", function() {
 
 document.getElementById('map1').addEventListener('mousedown', function() {
     modalMap.classList.add("opened");
+    modalMap.classList.remove("closed");
 })
 
 closeModal2.addEventListener("click", function() {
-    modalMap.classList.remove("opened")
+    modalMap.classList.remove("opened");
+    modalMap.classList.add("closed");
 })
-
-
 
 function initMap() {
     var place = {

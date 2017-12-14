@@ -651,7 +651,7 @@ body {
     display: none;
     padding-bottom: 19px;
     height: 100%;
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 
 .first-slider .slide1 {
@@ -961,11 +961,11 @@ body {
 }
 
 .modal-map {
+    opacity: 0;
     width: 940px;
     height: 446px;
     position: absolute;
     top: 2300px;
-    display: none;
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -1688,11 +1688,16 @@ body {
     position: absolute;
     width: 21px;
     height: 21px;
-    background: url("images/close-modal.png") no-repeat;
-    right: 16px;
-    top: 40px;
+    background: url("images/sprites.png") no-repeat -966px -263px;
+    right: 9px;
+    top: 9px;
     cursor: pointer;
     z-index: 4;
+}
+
+.modal-map .close-modal {
+    right: 16px;
+    top: 40px;
 }
 
 .write-us-modal {
@@ -1784,6 +1789,56 @@ body {
     background-color: #F4F4F4;
 }
 
+.cart-modal {
+    display: none;
+    background-color: #FFF;
+    position: fixed;
+    top: 50%;
+    z-index: 2;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
+    width: 620px;
+    height: 280px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-top: 7px solid #FF5357;
+}
+
+.cart-modal .h {
+    background: url("images/sprites.png") no-repeat -1344px -716px;
+    padding: 70px 20px 71px 190px;
+    font-size: 30px;
+    line-height: 18px;
+}
+
+.cart-modal .btn {
+    width: 220px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cart-modal .modal-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.continue-buy {
+    font-family: 'Cuprum', sans-serif;
+    border-radius: 3px;
+    padding: 12px 50px 10px 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+    background-color: #FFF;
+    color: #000;
+}
+
 .opened {
     display: block;
+    opacity: 1;
+}
+
+.closed {
+    display: none;
 }
