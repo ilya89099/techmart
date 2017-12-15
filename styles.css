@@ -1875,3 +1875,7 @@ body {
     top: 2455px;
     left: 78%;
 }
+
+audio {
+    display: none;
+}
