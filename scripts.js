@@ -3,8 +3,15 @@ var closeModal1 = document.querySelector(".cm1")
 var closeModal2 = document.querySelector(".cm2")
 var modalWindow = document.querySelector(".write-us-modal")
 var modalMap = document.querySelector(".modal-map")
+var mems = document.querySelector(".company .btn")
 
-setTimeout(function() { modalMap.classList.add("closed"); }, 500)
+mems.addEventListener('click', function() {
+    document.querySelector(".just-pseudo").classList.toggle("closed");
+    document.querySelector(".just-pseudo2").classList.toggle("closed");
+})
+
+
+setTimeout(function() { modalMap.classList.add("closed"); }, 1000)
 
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
