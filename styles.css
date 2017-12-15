@@ -863,7 +863,7 @@ body {
     height: 250px;
     padding-top: 35px;
     width: 240px;
-    box-shadow: 5px 0 3px -3px rgba(0, 0, 0, 0.9);
+    box-shadow: 5px 0 2px -4px rgba(0, 0, 0, 0.3);
 }
 
 .second-slider label {
@@ -1841,4 +1841,37 @@ body {
 
 .closed {
     display: none;
+}
+
+.just-pseudo::after {
+    content: "";
+    position: absolute;
+    width: 245px;
+    height: 281px;
+    background: url("images/navalny.png") no-repeat;
+    top: 2792px;
+    left: 5%;
+}
+
+.just-pseudo::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    left: 100%;
+    transform: translateX(-100%);
+    background: url("images/kianu.png") no-repeat;
+    top: 2610px;
+    background-size: 200px auto;
+}
+
+.just-pseudo2::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 347px;
+    background: url("images/svid.png") no-repeat;
+    background-size: 150px auto;
+    top: 2455px;
+    left: 78%;
 }
