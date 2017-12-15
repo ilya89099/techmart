@@ -4,6 +4,9 @@ var closeModal2 = document.querySelector(".cm2")
 var modalWindow = document.querySelector(".write-us-modal")
 var modalMap = document.querySelector(".modal-map")
 var mems = document.querySelector(".company .btn")
+var buy = document.querySelectorAll(".buy")
+var modalCart = document.querySelector(".cart-modal")
+var closeModal3 = document.querySelector(".cm3")
 
 mems.addEventListener('click', function() {
     document.querySelector(".just-pseudo").classList.toggle("closed");
@@ -21,7 +24,7 @@ closeModal1.addEventListener("click", function() {
     modalWindow.classList.remove("opened");
 })
 
-document.getElementById('map1').addEventListener('mousedown', function() {
+document.getElementById('map1').addEventListener('mousedown', function(eve) {
     modalMap.classList.add("opened");
     modalMap.classList.remove("closed");
 })
@@ -29,6 +32,16 @@ document.getElementById('map1').addEventListener('mousedown', function() {
 closeModal2.addEventListener("click", function() {
     modalMap.classList.remove("opened");
     modalMap.classList.add("closed");
+})
+
+for (var i = 0; i < buy.length; i++) {
+    buy[i].addEventListener("click", function() {
+        modalCart.classList.add("opened");
+    });
+}
+
+closeModal3.addEventListener("click", function() {
+    modalCart.classList.remove("opened");
 })
 
 function initMap() {
