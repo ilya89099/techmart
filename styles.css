@@ -656,6 +656,7 @@ body {
 
 .first-slider .slide1 {
     background-image: url("images/harold.jpg");
+    background-size: 100% auto;
 }
 
 .first-slider .slide2 {
