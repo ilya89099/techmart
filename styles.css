@@ -1516,6 +1516,10 @@ body {
     margin-bottom: 20px;
 }
 
+.catalog-item:hover {
+    box-shadow: 0 5px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
 .image-wrap {
     display: flex;
     height: 180px;
@@ -1874,17 +1878,6 @@ body {
     background: url("images/svid.png") no-repeat;
     background-size: 150px auto;
     top: 2455px;
-    left: 78%;
-}
-
-.just-pseudo2::before {
-    content: "";
-    position: absolute;
-    width: 150px;
-    height: 347px;
-    background: url("images/fire.gif") no-repeat;
-    background-size: 150px auto;
-    top: 2255px;
     left: 78%;
 }
 
