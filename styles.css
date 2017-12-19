@@ -1877,6 +1877,17 @@ body {
     left: 78%;
 }
 
+.just-pseudo2::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 347px;
+    background: url("images/fire.gif") no-repeat;
+    background-size: 150px auto;
+    top: 2255px;
+    left: 78%;
+}
+
 audio {
     display: none;
 }
