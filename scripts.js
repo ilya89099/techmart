@@ -1,23 +1,22 @@
 var openModal = document.querySelector(".write-us");
-var closeModal1 = document.querySelector(".cm1")
-var closeModal2 = document.querySelector(".cm2")
-var closeModal3 = document.querySelector(".cm3")
+var closeForm = document.querySelector(".close-form")
+var closeCart = document.querySelector(".close-cart")
 var modalWindow = document.querySelector(".write-us-modal")
 var mems = document.querySelector(".company .btn")
 var buy = document.querySelectorAll(".buy")
 var map = document.querySelector('.map-positioner')
 var modalCart = document.querySelector(".cart-modal")
-var closemap = document.querySelector(".close-map")
+var closeMap = document.querySelector(".close-map")
 
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
 })
 
-closeModal1.addEventListener("click", function() {
+closeForm.addEventListener("click", function() {
     modalWindow.classList.remove("opened");
 })
 
-closemap.addEventListener('click', function() {
+closeMap.addEventListener('click', function() {
     map.classList.remove("opened");
 })
 
@@ -31,7 +30,7 @@ for (var i = 0; i < buy.length; i++) {
     });
 }
 
-closeModal3.addEventListener("click", function() {
+closeCart.addEventListener("click", function() {
     modalCart.classList.remove("opened");
 })
 

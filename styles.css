@@ -1819,13 +1819,15 @@ body {
 
 .catalog-info {
     background-color: #f2f6f8;
-    padding: 50px 0;
+    padding: 61px 0 67px 0;
 }
 
 .catalog-info .h {
     text-transform: uppercase;
     font-family: 'Cuprum', sans-serif;
     font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 26px;
 }
 
 .catalog-info p {
