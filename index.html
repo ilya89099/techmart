@@ -11,7 +11,7 @@
 </head>
 
 <body class="index-body">
-    <audio src="aaaw.mp3" autoplay></audio>
+    <audio autoplay></audio>
     <header class="tech-header">
         <div class="top-menu">
             <div class="container">
@@ -27,7 +27,9 @@
         <div class="about-us">
             <div class="container">
                 <div class="info">
-                    <p class="description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+                    <p class="description">Интернет-магазин
+                        <br> строительных материалов
+                        <br> и инструментов для ремонта</p>
                     <div class="call-us">
                         <h1 class="phone  h">+7 (812) 555-05-55</h1>
                         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -51,15 +53,15 @@
     </header>
     <main>
         <div class="first-block clearfix  container">
-            <div class="card card1">
+            <div class="card  card1  new">
                 <h2 class="h">Материалы</h2>
                 <a class="btn" href="#">На любой вкус</a>
             </div>
-            <div class="card card2">
+            <div class="card  card2">
                 <h2 class="h">Инструмент</h2>
                 <a class="btn" href="#">На все случаи</a>
             </div>
-            <div class="card card3">
+            <div class="card  card3">
                 <h2 class="h">Техника</h2>
                 <a class="btn" href="#">Для стройки</a>
             </div>
@@ -86,11 +88,11 @@
                 </div>
 
             </div>
-            <div class="card card4">
+            <div class="card  card4">
                 <h2 class="h">Скидки 50%</h2>
                 <a class="btn" href="#">На 350 товаров</a>
             </div>
-            <div class="card card5">
+            <div class="card  card5">
                 <h2 class="h">Доставка</h2>
                 <a class="btn" href="#">Бесплатно</a>
             </div>
@@ -196,7 +198,10 @@
                     <ul class="slider-list">
                         <li class="slide  slide1">
                             <h3 class="h">Доставка</h3>
-                            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                            <p>Мы с удовольствием доставим ваш товар прямо
+                                <br> к вашему подъезду совершенно бесплатно!
+                                <br> Ведь мы неплохо заработаем,
+                                <br> поднимая его на ваш этаж!</p>
                         </li>
                         <li class="slide  slide2">
                             <h3 class="h">Гарантия</h3>
@@ -230,8 +235,13 @@
                     <h2 class="h">Контакты</h2>
                     <p>Вы можете забрать товар сами,
                         <br> заехав в наш офис</p>
-                    <div id="map1"></div>
-                    <button class="write-us  btn  red-btn">Заблудились? Напишите нам</button>
+                    <div class="map-container">
+                        <div class="map-positioner">
+                            <div id="map1" class="map"></div>
+                            <button class="close-modal  close-map"></button>
+                        </div>
+                    </div>
+                    <button class="write-us  btn  red-btn">Заблудились? Напишите нам!</button>
                 </div>
             </div>
         </div>
@@ -250,13 +260,13 @@
                     </nav>
                 </div>
                 <div class="bot-second-block">
-                    <p> Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                    <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
                         <br>+7 (812) 555-05-55
                     </p>
                     <nav class="bot-second-nav">
                         <a href="#">Материалы</a>
                         <a href="#">Техника</a>
-                        <a href="#">Инструменты</a>
+                        <a href="#">Инструмент</a>
                         <a href="#">Спецпредложения</a>
                     </nav>
                 </div>
@@ -265,7 +275,7 @@
         <div class="bot-links">
             <div class="bot-links-flex  container">
                 <p class="copyright">
-                    © 2010-2017 Компания «Техномарт»
+                    © 2010—2017 Компания «Техномарт»
                     <br> Все права защищены
                 </p>
                 <div class="soc-links">
@@ -274,7 +284,7 @@
                     <a class="inst-link" href="#"></a>
                 </div>
                 <div class="feedback">
-                    <h4 class="h">Обратная связь</h4>
+                    <h4 class="h">Обратная связь:</h4>
                     <a class="link" href="#">mail@htmlacademy.ru</a>
                 </div>
                 <div class="made-by">
@@ -313,10 +323,6 @@
 
         </form>
     </div>
-    <div class="modal-map">
-        <button class="close-modal  cm2"></button>
-        <div id="map2"></div>
-    </div>
     <div class="cart-modal">
         <button class="close-modal  cm3"></button>
         <h2 class="h">Товар добавлен в корзину!</h2>
@@ -327,8 +333,8 @@
             </div>
         </div>
     </div>
-    <script src="scripts.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz8cpQl7KrBddp28C7JVMBcbpG6IFLi9E&callback=initMap"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>

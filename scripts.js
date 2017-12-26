@@ -1,20 +1,24 @@
 var openModal = document.querySelector(".write-us");
 var closeModal1 = document.querySelector(".cm1")
 var closeModal2 = document.querySelector(".cm2")
+var closeModal3 = document.querySelector(".cm3")
 var modalWindow = document.querySelector(".write-us-modal")
-var modalMap = document.querySelector(".modal-map")
 var mems = document.querySelector(".company .btn")
 var buy = document.querySelectorAll(".buy")
+var map = document.querySelector('.map-positioner')
 var modalCart = document.querySelector(".cart-modal")
-var closeModal3 = document.querySelector(".cm3")
+var closemap = document.querySelector(".close-map")
+var logo = document.querySelector(".logo")
+var audio = document.querySelector("audio")
+
+logo.addEventListener("click", function() {
+    audio.setAttribute("src", "aaaw.mp3");
+})
 
 mems.addEventListener('click', function() {
     document.querySelector(".just-pseudo").classList.toggle("closed");
     document.querySelector(".just-pseudo2").classList.toggle("closed");
 })
-
-
-setTimeout(function() { modalMap.classList.add("closed"); }, 1000)
 
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
@@ -24,14 +28,12 @@ closeModal1.addEventListener("click", function() {
     modalWindow.classList.remove("opened");
 })
 
-document.getElementById('map1').addEventListener('mousedown', function(eve) {
-    modalMap.classList.add("opened");
-    modalMap.classList.remove("closed");
+closemap.addEventListener('click', function() {
+    map.classList.remove("opened");
 })
 
-closeModal2.addEventListener("click", function() {
-    modalMap.classList.remove("opened");
-    modalMap.classList.add("closed");
+map.addEventListener('mousedown', function(eve) {
+    map.classList.add("opened");
 })
 
 for (var i = 0; i < buy.length; i++) {
@@ -55,21 +57,13 @@ function initMap() {
         zoom: 19,
         center: place
     });
-    var map2 = new google.maps.Map(document.getElementById('map2'), {
-        zoom: 19,
-        center: place
-    });
-    var marke1 = new google.maps.Marker({
+
+    var marker1 = new google.maps.Marker({
         position: place,
         map: map1,
         icon: ("images/b3.png"),
         title: "Пора выбирать"
     });
+    document.getElementById("map1").style.position = "absolute";
 
-    var marker2 = new google.maps.Marker({
-        position: place,
-        map: map2,
-        icon: ("images/b3.png"),
-        title: "Пора выбирать"
-    });
 }
