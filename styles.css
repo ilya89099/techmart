@@ -246,18 +246,6 @@ template {
     display: none;
 }
 
-
-/*↑↑  Normalize Css  ↑↑*/
-
-
-/*↑↑  Normalize Css  ↑↑*/
-
-
-/*↑↑  Normalize Css  ↑↑*/
-
-
-/*↑↑  Normalize Css  ↑↑*/
-
 * {
     box-sizing: border-box;
 }
@@ -1251,18 +1239,6 @@ body {
     color: #ffd180;
 }
 
-
-/*↑↑  index index  ↑↑*/
-
-
-/*↑↑  index index  ↑↑*/
-
-
-/*↑↑  index index  ↑↑*/
-
-
-/*↑↑  index index  ↑↑*/
-
 .techmart-catalog .tech-header {
     margin-bottom: 0;
 }
@@ -1888,18 +1864,6 @@ body {
     padding: 9px 30px;
 }
 
-
-/*↑↑↑↑  каталог  ↑↑↑↑*/
-
-
-/*↑↑↑↑  каталог  ↑↑↑↑*/
-
-
-/*↑↑↑↑  каталог  ↑↑↑↑*/
-
-
-/*↑↑↑↑  каталог  ↑↑↑↑*/
-
 .modal-container {
     width: 460px;
     margin: auto;
@@ -1947,7 +1911,6 @@ body {
 }
 
 .comment-group textarea {
-    background-image: url("images/kappa.png");
     background-size: 40px 40px;
 }
 
@@ -2056,47 +2019,5 @@ body {
 }
 
 .closed {
-    display: none;
-}
-
-.just-pseudo,
-.just-pseudo2 {
-    display: none;
-}
-
-.just-pseudo::after {
-    content: "";
-    position: absolute;
-    width: 245px;
-    height: 281px;
-    background: url("images/navalny.png") no-repeat;
-    top: 2792px;
-    left: 5%;
-}
-
-.just-pseudo::before {
-    content: "";
-    position: absolute;
-    width: 200px;
-    height: 280px;
-    left: 100%;
-    transform: translateX(-100%);
-    background: url("images/kianu.png") no-repeat;
-    top: 2610px;
-    background-size: 200px auto;
-}
-
-.just-pseudo2::after {
-    content: "";
-    position: absolute;
-    width: 150px;
-    height: 347px;
-    background: url("images/svid.png") no-repeat;
-    background-size: 150px auto;
-    top: 2455px;
-    left: 78%;
-}
-
-audio {
     display: none;
 }

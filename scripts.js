@@ -7,9 +7,16 @@ var buy = document.querySelectorAll(".buy")
 var map = document.querySelector('.map-positioner')
 var modalCart = document.querySelector(".cart-modal")
 var closeMap = document.querySelector(".close-map")
-var audio = document.querySelector("audio")
 
-audio.volume = 0.5;
+for (var i = 0; i < buy.length; i++) {
+    buy[i].addEventListener("click", function() {
+        modalCart.classList.add("opened");
+    });
+}
+
+closeCart.addEventListener("click", function() {
+    modalCart.classList.remove("opened");
+})
 
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
@@ -27,16 +34,6 @@ map.addEventListener('mousedown', function(eve) {
     map.classList.add("opened");
 })
 
-for (var i = 0; i < buy.length; i++) {
-    buy[i].addEventListener("click", function() {
-        modalCart.classList.add("opened");
-    });
-}
-
-closeCart.addEventListener("click", function() {
-    modalCart.classList.remove("opened");
-})
-
 function initMap() {
     var place = {
         lat: 59.938759,
@@ -48,9 +45,7 @@ function initMap() {
     });
     var marker1 = new google.maps.Marker({
         position: place,
-        map: map1,
-        icon: ("images/b3.png"),
-        title: "Пора выбирать"
+        map: map1
     });
     document.getElementById("map1").style.position = "absolute";
 
