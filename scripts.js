@@ -8,6 +8,7 @@ var map = document.querySelector('.map-positioner')
 var modalCart = document.querySelector(".cart-modal")
 var closeMap = document.querySelector(".close-map")
 
+
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
 })

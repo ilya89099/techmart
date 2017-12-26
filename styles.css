@@ -1638,6 +1638,14 @@ body {
     background: url("images/sprites.png") no-repeat -10px -362px;
 }
 
+.filters-group input[type="checkbox"]:disabled+label:after {
+    background: url("images/sprites.png") no-repeat -14px -562px;
+}
+
+.filters-group input[type="checkbox"]:checked:disabled+label:after {
+    background: url("images/sprites.png") no-repeat -9px -412px;
+}
+
 .custom-radio {
     padding: 3px 34px 5px 34px;
     position: relative;
@@ -1666,6 +1674,14 @@ body {
 
 .filters-group input[type="radio"]:checked+label:hover:after {
     background: url("images/sprites.png") no-repeat -12px -59px;
+}
+
+.filters-group input[type="radio"]:disabled+label:after {
+    background: url("images/sprites.png") no-repeat -11px -262px;
+}
+
+.filters-group input[type="radio"]:checked:disabled+label:after {
+    background: url("images/sprites.png") no-repeat -11px -112px;
 }
 
 .filters .btn {
