@@ -8,17 +8,6 @@ var buy = document.querySelectorAll(".buy")
 var map = document.querySelector('.map-positioner')
 var modalCart = document.querySelector(".cart-modal")
 var closemap = document.querySelector(".close-map")
-var logo = document.querySelector(".logo")
-var audio = document.querySelector("audio")
-
-logo.addEventListener("click", function() {
-    audio.setAttribute("src", "aaaw.mp3");
-})
-
-mems.addEventListener('click', function() {
-    document.querySelector(".just-pseudo").classList.toggle("closed");
-    document.querySelector(".just-pseudo2").classList.toggle("closed");
-})
 
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
@@ -51,13 +40,10 @@ function initMap() {
         lat: 59.938759,
         lng: 30.3231015
     };
-
-
     var map1 = new google.maps.Map(document.getElementById('map1'), {
         zoom: 19,
         center: place
     });
-
     var marker1 = new google.maps.Marker({
         position: place,
         map: map1,

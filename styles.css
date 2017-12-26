@@ -508,14 +508,14 @@ body {
 }
 
 .info .phone {
-    background: url("images/sprites.png") no-repeat -3px -605px;
+    background: url("images/sprites.png") no-repeat -5px -604px;
     margin: 0;
     font-weight: 400;
     display: block;
     font-size: 21px;
     line-height: 18px;
     padding-left: 71px;
-    padding-top: 10px;
+    padding-top: 11px;
     padding-bottom: 10px;
     border: 3px solid #fff;
     color: #ee3643;
@@ -1269,6 +1269,7 @@ body {
 
 .techmart-catalog .basket-link {
     background-color: #ee3643;
+    padding-left: 23px;
 }
 
 .login-block {
@@ -1279,49 +1280,51 @@ body {
 }
 
 .login-block .signed-account {
-    padding-left: 40px;
-    width: 255px;
+    padding-left: 48px;
+    width: 265px;
+    padding-right: 20px;
 }
 
 .login-block .logout {
     padding: 0;
-    width: 45px;
+    width: 35px;
     height: 45px;
     font-size: 0;
-    background: url("images/sprites.png") no-repeat -811px -654px, #fff;
+    background: url("images/sprites.png") no-repeat -812px -653px, #fff;
 }
 
 .login-actions {
-    padding-top: 8px;
+    padding-top: 7px;
 }
 
 .signed-account {
-    background: url("images/sprites.png") no-repeat -1005px -51px, #fff;
+    background: url("images/sprites.png") no-repeat -1001px -50px, #fff;
 }
 
 .signed-account:hover {
-    background: url("images/sprites.png") no-repeat -1005px -104px, #fff;
+    background: url("images/sprites.png") no-repeat -1001px -103px, #fff;
 }
 
 .signed-account:active {
-    background: url("images/sprites.png") no-repeat -1005px -150px, url("images/sprites.png") no-repeat -561px -757px, #FFF;
+    background: url("images/sprites.png") no-repeat -1001px -149px, #fff;
     color: #b2b2b2;
 }
 
 .logout:hover {
-    background: url("images/sprites.png") no-repeat -811px -705px, #fff;
+    background: url("images/sprites.png") no-repeat -812px -704px, #fff;
 }
 
 .logout:active {
-    background: url("images/sprites.png") no-repeat -812px -756px, #fff;
+    background: url("images/sprites.png") no-repeat -813px -755px, #fff;
 }
 
 .login-actions a {
     display: inline-block;
     color: #32425c;
-    padding-left: 20px;
     position: relative;
     font-size: 16px;
+    margin-right: 8px;
+    padding-left: 19px;
     line-height: 18px;
 }
 
@@ -1339,14 +1342,16 @@ body {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    left: 5px;
+    left: 2px;
     top: 7px;
     background-color: #32425c;
 }
 
 .catalog-breadcrumbs {
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .catalog-breadcrumbs a {
@@ -1359,15 +1364,18 @@ body {
 }
 
 .catalog-breadcrumbs .home-icon {
-    margin-right: 6px;
+    margin-right: 12px;
     width: 16px;
     height: 14px;
-    background: url("images/sprites.png") no-repeat -815px -116px;
+    position: relative;
+    top: 2px;
+    left: -2px;
+    background: url("images/sprites.png") no-repeat -815px -117px;
 }
 
 .catalog-breadcrumbs .real-breadcrumb {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 23px;
+    padding-right: 16px;
     position: relative;
 }
 
@@ -1375,7 +1383,7 @@ body {
     content: "";
     position: absolute;
     left: -4px;
-    top: 2px;
+    top: 1px;
     width: 8px;
     height: 14px;
     background: url("images/sprites.png") no-repeat -74px -470px;
@@ -1392,40 +1400,52 @@ body {
 }
 
 .catalog-heading {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     background-color: #f2f6f8;
     color: #32425c;
     text-transform: uppercase;
-    padding: 30px 20px 25px 20px;
+    padding: 30px 20px 29px 28px;
     font-size: 30px;
     line-height: 30px;
+    font-weight: 400;
 }
 
 .sort {
-    padding: 15px 18px;
+    padding: 8px 17px 9px 19px;
     background-color: #f7f3ec;
     display: flex;
     justify-content: space-between;
+    border-radius: 3px;
 }
 
 .sort-types {
     margin: 0;
     padding: 0;
+    font-size: 0;
+    padding-top: 3px;
 }
 
 .sort-types .btn {
     padding: 0;
+    vertical-align: middle;
     background: none;
     color: #acaaa5;
     text-transform: uppercase;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .sort-types .type-of-sort {
-    margin-left: 35px;
     border-bottom: 1px dotted #ee3643;
-    margin-right: 35px;
+    margin-right: 68px;
+}
+
+.sort-types .btn:nth-child(2) {
+    margin-right: 65px;
+}
+
+.sort-types .btn:nth-child(3) {
+    margin-right: 47px;
 }
 
 .sort-types .type-of-sort:hover {
@@ -1449,7 +1469,7 @@ body {
 
 .sort-types .up-arrow {
     background: url("images/sprites.png") no-repeat -67px -169px;
-    margin-right: 10px;
+    margin-right: 21px;
 }
 
 .sort-types .down-arrow {
@@ -1480,6 +1500,10 @@ body {
     line-height: 21px;
 }
 
+.filters .sort {
+    margin-bottom: 10px;
+}
+
 .filter-heading {
     font-weight: bold;
     text-transform: uppercase;
@@ -1488,10 +1512,14 @@ body {
     margin-bottom: 15px;
 }
 
+.catalog-toggle {
+    padding-bottom: 4px;
+}
+
 .price-range-controls {
     width: 100%;
     height: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
     background-color: #f7f3ec;
     position: relative;
     padding: 39px 10% 39px 10%;
@@ -1518,7 +1546,7 @@ body {
     border-radius: 50%;
     border: 8px solid #fff;
     background-color: #ababab;
-    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2)
 }
 
 .price-range-controls .range-toggle:hover {
@@ -1529,20 +1557,21 @@ body {
     background-color: #000;
 }
 
-.price-range-controls .range-toggle-min {
-    left: 10%;
+.price-range-controls .min-toggle {
+    left: 13%;
 }
 
 .price-range-controls .max-toggle {
-    left: 78%;
+    left: 77%;
 }
 
 .price-limits input {
     text-align: center;
     width: 95px;
-    padding: 13px 5px;
+    padding: 8px 6px 12px 10px;
     background-color: #f7f3ec;
     border: none;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .price-limits span {
@@ -1553,7 +1582,7 @@ body {
     size: 30px;
     color: #e5e5e5;
     border: none;
-    margin: 20px 0;
+    margin: 20px 0 16px 0;
     border-top: 1px solid #e5e5e5;
 }
 
@@ -1562,21 +1591,29 @@ body {
     flex-direction: column;
 }
 
+.filters-group .filter-heading {
+    margin-bottom: 11px;
+}
+
 .filters-group input {
     display: none;
 }
 
 .filters-group label {
-    margin-bottom: 10px;
     display: inline-block;
-    font-size: 15px;
-    line-height: 20px;
     text-transform: uppercase;
+}
+
+.filters-group label:last-child {
+    margin-bottom: 0;
 }
 
 .custom-check {
     position: relative;
-    padding: 3px 30px;
+    padding: 3px 30px 3px 34px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .custom-check::after {
@@ -1602,8 +1639,11 @@ body {
 }
 
 .custom-radio {
-    padding: 5px 30px;
+    padding: 3px 34px 5px 34px;
     position: relative;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .custom-radio::after {
@@ -1632,10 +1672,11 @@ body {
     color: #000;
     background-color: #fff;
     border: 1px solid #e5e5e5;
-    padding: 12px 40px 10px 40px;
+    padding: 10px 0 8px 0;
+    width: 140px;
     text-transform: uppercase;
-    margin-top: 40px;
-    font-size: 13px;
+    margin-top: 75px;
+    font-size: 12px;
     line-height: 18px;
     border-radius: 3px;
 }
@@ -1651,6 +1692,7 @@ body {
 .catalog {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 32px;
 }
 
 .catalog-item {
@@ -1661,7 +1703,7 @@ body {
     height: 318px;
     font-family: 'PT Sans', sans-serif;
     margin-right: 20px;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .catalog-item:hover {
@@ -1794,18 +1836,20 @@ body {
 
 .pagination {
     margin-bottom: 60px;
+    font-size: 0;
 }
 
 .pagination .btn {
     margin-right: 10px;
     font-size: 13px;
     line-height: 18px;
-    padding: 12px 16px;
+    padding: 9px 14px 9px 15px;
     color: #000;
     background-color: #fff;
     border-radius: 4px;
     border: 1px solid #e5e5e5;
     text-transform: uppercase;
+    vertical-align: top;
 }
 
 .pagination .btn.on-this-page {
@@ -1823,7 +1867,7 @@ body {
 }
 
 .pagination .btn:last-child {
-    padding: 12px 30px;
+    padding: 9px 30px;
 }
 
 
