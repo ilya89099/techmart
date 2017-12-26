@@ -7,7 +7,9 @@ var buy = document.querySelectorAll(".buy")
 var map = document.querySelector('.map-positioner')
 var modalCart = document.querySelector(".cart-modal")
 var closeMap = document.querySelector(".close-map")
+var audio = document.querySelector("audio")
 
+audio.volume = 0.5;
 
 openModal.addEventListener("click", function() {
     modalWindow.classList.add("opened");
