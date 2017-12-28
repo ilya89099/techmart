@@ -289,7 +289,7 @@ button {
     position: absolute;
     top: 0;
     right: 0;
-    background: url("images/sprites.png") no-repeat -623px -189px;
+    background: url("../images/sprites.png") no-repeat -623px -189px;
     width: 60px;
     height: 60px;
 }
@@ -365,17 +365,17 @@ body {
 .top-menu .search {
     width: 270px;
     border: none;
-    background: url("images/sprites.png") no-repeat -447px -652px, #293449;
+    background: url("../images/sprites.png") no-repeat -447px -652px, #293449;
     padding: 12px 0 12px 48px;
     color: #fff;
 }
 
 .search:hover {
-    background: url("images/sprites.png") no-repeat -453px -704px, #212a3a;
+    background: url("../images/sprites.png") no-repeat -453px -704px, #212a3a;
 }
 
 .search:focus {
-    background: url("images/sprites.png") no-repeat -448px -756px, #fff;
+    background: url("../images/sprites.png") no-repeat -448px -756px, #fff;
     color: #000;
     outline: none;
 }
@@ -400,28 +400,28 @@ body {
 
 .bookmarks-link {
     padding: 12px 0 12px 17px;
-    background: url("images/sprites.png") no-repeat -202px -654px;
+    background: url("../images/sprites.png") no-repeat -202px -654px;
 }
 
 .bookmarks-link:hover {
-    background: url("images/sprites.png") no-repeat -202px -706px, #212a3a;
+    background: url("../images/sprites.png") no-repeat -202px -706px, #212a3a;
 }
 
 .bookmarks-link:active {
-    background: url("images/sprites.png") no-repeat -202px -755px, #161d29;
+    background: url("../images/sprites.png") no-repeat -202px -755px, #161d29;
 }
 
 .basket-link {
     padding: 12px 0 12px 19px;
-    background: url("images/sprites.png") no-repeat -1px -660px;
+    background: url("../images/sprites.png") no-repeat -1px -660px;
 }
 
 .basket-link:hover {
-    background: url("images/sprites.png") no-repeat 0px -705px, #212a3a;
+    background: url("../images/sprites.png") no-repeat 0px -705px, #212a3a;
 }
 
 .basket-link:active {
-    background: url("images/sprites.png") no-repeat -1px -754px, #161d29;
+    background: url("../images/sprites.png") no-repeat -1px -754px, #161d29;
 }
 
 .place-an-order {
@@ -511,7 +511,7 @@ body {
 }
 
 .info .phone {
-    background: url("../images/sprites.png") no-repeat -5px -604px;
+    background: url("../../images/sprites.png") no-repeat -5px -604px;
     margin: 0;
     font-weight: 400;
     display: block;
@@ -552,16 +552,16 @@ body {
     margin-right: 8px;
     margin-left: 20px;
     padding-left: 47px;
-    background: url("images/sprites.png") no-repeat -1007px -653px, #fff;
+    background: url("../images/sprites.png") no-repeat -1007px -653px, #fff;
 }
 
 .info .sign-in:hover {
-    background: url("images/sprites.png") no-repeat -1004px -700px, #fff;
+    background: url("../images/sprites.png") no-repeat -1004px -700px, #fff;
     color: #ee3643;
 }
 
 .info .sign-in:active {
-    background: url("images/sprites.png") no-repeat -1008px -756px, #fff;
+    background: url("../images/sprites.png") no-repeat -1008px -756px, #fff;
     color: #b2b2b2;
 }
 
@@ -661,11 +661,11 @@ body {
 }
 
 .first-slider .slide1 {
-    background-image: url("images/slide1.jpg");
+    background-image: url("../images/slide1.jpg");
 }
 
 .first-slider .slide2 {
-    background-image: url("images/slide2.jpg");
+    background-image: url("../images/slide2.jpg");
 }
 
 .first-slider .slider-controls {
@@ -739,13 +739,13 @@ body {
 
 .card1 {
     float: left;
-    background: url("images/sprites.png") no-repeat -140px 19px, #ffbf47;
+    background: url("../images/sprites.png") no-repeat -140px 19px, #ffbf47;
     margin-right: 20px;
 }
 
 .card2 {
     float: left;
-    background: url("images/sprites.png") no-repeat -140px -96px, #3bbce3;
+    background: url("../images/sprites.png") no-repeat -140px -96px, #3bbce3;
 }
 
 .card3 .btn,
@@ -756,7 +756,7 @@ body {
 
 .card3 {
     float: right;
-    background: url("images/sprites.png") no-repeat -140px -214px, #dc91d8;
+    background: url("../images/sprites.png") no-repeat -140px -214px, #dc91d8;
 }
 
 .card3 .btn {
@@ -765,7 +765,7 @@ body {
 
 .card4 {
     float: right;
-    background: url("images/sprites.png") no-repeat -149px -328px #8ed78f;
+    background: url("../images/sprites.png") no-repeat -149px -328px #8ed78f;
 }
 
 .card4 .btn {
@@ -774,7 +774,7 @@ body {
 
 .card5 {
     float: right;
-    background: url("images/sprites.png") no-repeat -150px -467px, #ffbf47;
+    background: url("../images/sprites.png") no-repeat -150px -467px, #ffbf47;
 }
 
 .card5 .btn {
@@ -943,7 +943,7 @@ body {
     position: absolute;
     width: 468px;
     height: 261px;
-    background: url("images/sprites.png") no-repeat -625px -313px;
+    background: url("../images/sprites.png") no-repeat -625px -313px;
     top: 0;
     right: 0;
 }
@@ -953,7 +953,7 @@ body {
     position: absolute;
     width: 389px;
     height: 283px;
-    background: url("images/sprites.png") no-repeat -1385px -9px;
+    background: url("../images/sprites.png") no-repeat -1385px -9px;
     top: 0;
     right: -8px;
 }
@@ -963,7 +963,7 @@ body {
     position: absolute;
     width: 465px;
     height: 285px;
-    background: url("images/sprites.png") no-repeat -1296px -343px;
+    background: url("../images/sprites.png") no-repeat -1296px -343px;
     top: -2px;
     right: -13px;
 }
@@ -1289,15 +1289,15 @@ body {
 }
 
 .vk-link {
-    background: url("images/sprites.png") no-repeat -53px -7px;
+    background: url("../images/sprites.png") no-repeat -53px -7px;
 }
 
 .fb-link {
-    background: url("images/sprites.png") no-repeat -54px -54px;
+    background: url("../images/sprites.png") no-repeat -54px -54px;
 }
 
 .inst-link {
-    background: url("images/sprites.png") no-repeat -56px -104px;
+    background: url("../images/sprites.png") no-repeat -56px -104px;
 }
 
 .feedback {
@@ -1340,7 +1340,7 @@ body {
     width: 35px;
     height: 45px;
     font-size: 0;
-    background: url("images/sprites.png") no-repeat -812px -653px, #fff;
+    background: url("../images/sprites.png") no-repeat -812px -653px, #fff;
 }
 
 .login-actions {
@@ -1348,24 +1348,24 @@ body {
 }
 
 .signed-account {
-    background: url("images/sprites.png") no-repeat -1001px -50px, #fff;
+    background: url("../images/sprites.png") no-repeat -1001px -50px, #fff;
 }
 
 .signed-account:hover {
-    background: url("images/sprites.png") no-repeat -1001px -103px, #fff;
+    background: url("../images/sprites.png") no-repeat -1001px -103px, #fff;
 }
 
 .signed-account:active {
-    background: url("images/sprites.png") no-repeat -1001px -149px, #fff;
+    background: url("../images/sprites.png") no-repeat -1001px -149px, #fff;
     color: #b2b2b2;
 }
 
 .logout:hover {
-    background: url("images/sprites.png") no-repeat -812px -704px, #fff;
+    background: url("../images/sprites.png") no-repeat -812px -704px, #fff;
 }
 
 .logout:active {
-    background: url("images/sprites.png") no-repeat -813px -755px, #fff;
+    background: url("../images/sprites.png") no-repeat -813px -755px, #fff;
 }
 
 .login-actions a {
@@ -1420,7 +1420,7 @@ body {
     position: relative;
     top: 2px;
     left: -2px;
-    background: url("images/sprites.png") no-repeat -815px -117px;
+    background: url("../images/sprites.png") no-repeat -815px -117px;
 }
 
 .catalog-breadcrumbs .real-breadcrumb {
@@ -1436,7 +1436,7 @@ body {
     top: 1px;
     width: 8px;
     height: 14px;
-    background: url("images/sprites.png") no-repeat -74px -470px;
+    background: url("../images/sprites.png") no-repeat -74px -470px;
 }
 
 .catalog--filters {
@@ -1526,28 +1526,28 @@ body {
 }
 
 .sort-types .up-arrow {
-    background: url("images/sprites.png") no-repeat -67px -169px;
+    background: url("../images/sprites.png") no-repeat -67px -169px;
     margin-right: 21px;
 }
 
 .sort-types .down-arrow {
-    background: url("images/sprites.png") no-repeat -70px -319px;
+    background: url("../images/sprites.png") no-repeat -70px -319px;
 }
 
 .sort-types .up-arrow:hover {
-    background: url("images/sprites.png") no-repeat -69px -218px;
+    background: url("../images/sprites.png") no-repeat -69px -218px;
 }
 
 .sort-types .down-arrow:hover {
-    background: url("images/sprites.png") no-repeat -70px -370px;
+    background: url("../images/sprites.png") no-repeat -70px -370px;
 }
 
 .sort-types .up-arrow.on-this-page {
-    background: url("images/sprites.png") no-repeat -70px -270px;
+    background: url("../images/sprites.png") no-repeat -70px -270px;
 }
 
 .sort-types .down-arrow.on-this-page {
-    background: url("images/sprites.png") no-repeat -70px -420px;
+    background: url("../images/sprites.png") no-repeat -70px -420px;
 }
 
 .sort-heading {
@@ -1688,27 +1688,27 @@ body {
     height: 25px;
     left: 0;
     top: 2px;
-    background: url("images/sprites.png") no-repeat -14px -462px;
+    background: url("../images/sprites.png") no-repeat -14px -462px;
 }
 
 .custom-check:hover::after {
-    background: url("images/sprites.png") no-repeat -14px -513px;
+    background: url("../images/sprites.png") no-repeat -14px -513px;
 }
 
 .filters-group input[type="checkbox"]:checked+label:after {
-    background: url("images/sprites.png") no-repeat -11px -313px;
+    background: url("../images/sprites.png") no-repeat -11px -313px;
 }
 
 .filters-group input[type="checkbox"]:checked+label:hover:after {
-    background: url("images/sprites.png") no-repeat -10px -362px;
+    background: url("../images/sprites.png") no-repeat -10px -362px;
 }
 
 .filters-group input[type="checkbox"]:disabled+label:after {
-    background: url("images/sprites.png") no-repeat -14px -562px;
+    background: url("../images/sprites.png") no-repeat -14px -562px;
 }
 
 .filters-group input[type="checkbox"]:checked:disabled+label:after {
-    background: url("images/sprites.png") no-repeat -9px -412px;
+    background: url("../images/sprites.png") no-repeat -9px -412px;
 }
 
 .custom-radio {
@@ -1726,27 +1726,27 @@ body {
     height: 25px;
     left: 0;
     top: 2px;
-    background: url("images/sprites.png") no-repeat -12px -163px;
+    background: url("../images/sprites.png") no-repeat -12px -163px;
 }
 
 .custom-radio:hover::after {
-    background: url("images/sprites.png") no-repeat -12px -211px;
+    background: url("../images/sprites.png") no-repeat -12px -211px;
 }
 
 .filters-group input[type="radio"]:checked+label:after {
-    background: url("images/sprites.png") no-repeat -12px -12px;
+    background: url("../images/sprites.png") no-repeat -12px -12px;
 }
 
 .filters-group input[type="radio"]:checked+label:hover:after {
-    background: url("images/sprites.png") no-repeat -12px -59px;
+    background: url("../images/sprites.png") no-repeat -12px -59px;
 }
 
 .filters-group input[type="radio"]:disabled+label:after {
-    background: url("images/sprites.png") no-repeat -11px -262px;
+    background: url("../images/sprites.png") no-repeat -11px -262px;
 }
 
 .filters-group input[type="radio"]:checked:disabled+label:after {
-    background: url("images/sprites.png") no-repeat -11px -112px;
+    background: url("../images/sprites.png") no-repeat -11px -112px;
 }
 
 .filters .btn {
@@ -1846,18 +1846,18 @@ body {
 
 .item-btns .buy {
     color: #fff;
-    background: url("images/sprites.png") no-repeat -4px -663px, #63a63e;
+    background: url("../images/sprites.png") no-repeat -4px -663px, #63a63e;
     border-bottom: 3px solid #367315;
     margin-bottom: 7px;
 }
 
 .item-btns .buy:hover {
-    background: url("images/sprites.png") no-repeat -3px -708px, #5fbb2d;
+    background: url("../images/sprites.png") no-repeat -3px -708px, #5fbb2d;
 }
 
 .item-btns .buy:active {
     border-color: #518534;
-    background: url("images/sprites.png") no-repeat -3px -708px, #518534;
+    background: url("../images/sprites.png") no-repeat -3px -708px, #518534;
 }
 
 .item-btns .add-to-bookmarks {
@@ -1913,7 +1913,7 @@ body {
     padding: 7px;
     padding-top: 10px;
     background: #ee3643;
-    background: url("images/sprites.png") no-repeat -540px -33px;
+    background: url("../images/sprites.png") no-repeat -540px -33px;
     font-size: 17px;
     min-height: 39px;
     padding-left: 10px;
@@ -1983,7 +1983,7 @@ body {
     position: absolute;
     width: 21px;
     height: 21px;
-    background: url("images/sprites.png") no-repeat -966px -263px;
+    background: url("../images/sprites.png") no-repeat -966px -263px;
     right: 9px;
     top: 9px;
     cursor: pointer;
@@ -2104,7 +2104,7 @@ body {
 }
 
 .cart-modal .heading {
-    background: url("images/sprites.png") no-repeat -1344px -716px;
+    background: url("../images/sprites.png") no-repeat -1344px -716px;
     padding: 70px 20px 71px 190px;
     font-size: 30px;
     line-height: 18px;
