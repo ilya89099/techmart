@@ -1,4 +1,4 @@
-var openModal = document.querySelector(".write-us");
+var openModal = document.querySelector(".contacts .write-us");
 var closeForm = document.querySelector(".close-form")
 var closeCart = document.querySelector(".close-cart")
 var modalWindow = document.querySelector(".write-us-modal")
