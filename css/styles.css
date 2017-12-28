@@ -1815,6 +1815,11 @@ body {
     margin-top: -7px;
 }
 
+.very-big-img {
+    margin-top: -17px;
+    margin-left: -19px;
+}
+
 .image-wrap img {
     max-width: 100%;
     max-height: 100%;
