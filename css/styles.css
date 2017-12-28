@@ -511,7 +511,7 @@ body {
 }
 
 .info .phone {
-    background: url("../../images/sprites.png") no-repeat -5px -604px;
+    background: url("../images/sprites.png") no-repeat -5px -604px;
     margin: 0;
     font-weight: 400;
     display: block;
